@@ -10,22 +10,26 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/typography.css">
     <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="shortcut icon" type="image/png" href="./img/favicon.png">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 </head>
-<body>
-    <header>
-        <a href="index.html"><img src="./img/logo.png" alt="Logo | eucacile"></a>
-        <nav>
-            <ul>
-                <li><a href="#">Home</a></li>
-                <li><a href="about.html">About</a></li>
-                <li><a href="works.html">Works</a></li>
-                <li><a href="contact.html">Contact</a></li>
-            </ul>
-        </nav>
-    </header>
+<body class=" ">
+<header>
+    <a href="index.html"><img src="./img/logo.png" alt="Logo | eucacile"></a>
+    <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
+        <div class="nav-toggle-bar"></div>
+    </div>
+    <nav class="menu">
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="works.html">Works</a></li>
+            <li><a href="contact.html">Contact</a></li>
+        </ul>
+    </nav>
+</header>
 
     <main>
         <section  data-aos="fade-up" class="grid homepage">
@@ -53,10 +57,11 @@
             <p> looking for someone to create your brand's graphic identity ? your website ? your social network communication strategy ? fill the contact form below and i will get back to you as soon as possible !</p>
 
             <form method="post" action="letswork.php">
-                <label><input id="f1" type="text" name="name" placeholder="your name" required/></label>
-                <label><input id="f2" type="email" name="email" placeholder="your email" required></label><br>
-                <label id="f3"><textarea name="message" id="message" placeholder="your message"></textarea></label>
-                <input id="send" type="submit" name="mailform" value="SEND" />
+                <div class="yourname"><label><input id="f1" type="text" name="name" placeholder="your name" required/></label></div>
+                <div class="email"><label><input id="f2" type="email" name="email" placeholder="your email" required></label></div>
+                <div class="message"><label id="f3"><textarea name="message" id="message" placeholder="your message"></textarea></label></div>
+               <div class="divBoutton"><input id="send" type="submit" name="mailform" value="SEND" /></div>
+
             </form>
         </aside>
     </main>

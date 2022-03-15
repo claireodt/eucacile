@@ -11,20 +11,26 @@
     <link rel="stylesheet" href="./css/typography.css">
     <link rel="stylesheet" href="./css/responsive.css">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="shortcut icon" type="image/png" href="./img/favicon.png">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
 </head>
 <body>
 <header>
     <a href="index.html"><img src="./img/logo.png" alt="Logo | eucacile"></a>
-    <nav>
+    <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
+        <div class="nav-toggle-bar"></div>
+    </div>
+    <nav class="menu">
         <ul>
             <li><a href="index.html">Home</a></li>
-            <li><a href="#">About</a></li>
+            <li><a href="about.html">About</a></li>
             <li><a href="works.html">Works</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
+
+
 </header>
 
 <main>

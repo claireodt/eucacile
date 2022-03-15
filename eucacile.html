@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/typography.css">
     <link rel="stylesheet" href="./css/responsiveproject.css">
+    <link rel="shortcut icon" type="image/png" href="./img/favicon.png">
 
     <script src="https://animejs.com/lib/anime.min.js"></script>
     <script src="./js/fonctions.js"></script>
@@ -17,7 +18,10 @@
 <body>
 <header>
     <a href="index.html"><img src="./img/logo.png" alt="Logo | eucacile"></a>
-    <nav>
+    <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
+        <div class="nav-toggle-bar"></div>
+    </div>
+    <nav class="menu">
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
@@ -25,6 +29,8 @@
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
+
+
 </header>
 
 <main>

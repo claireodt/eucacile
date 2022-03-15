@@ -10,18 +10,24 @@
             <link rel="stylesheet" href="./css/styles.css">
             <link rel="stylesheet" href="./css/typography.css">
             <link rel="stylesheet" href="./css/responsive.css">
+            <link rel="shortcut icon" type="image/png" href="./img/favicon.png">
         </head>
 <body>
 <header>
     <a href="index.html"><img src="./img/logo.png" alt="Logo | eucacile"></a>
-    <nav>
+    <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
+        <div class="nav-toggle-bar"></div>
+    </div>
+    <nav class="menu">
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
             <li><a href="works.html">Works</a></li>
-            <li><a href="#">Contact</a></li>
+            <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
+
+
 </header>
 
 <main data-aos="fade-up"  class="grid stayintouch">
@@ -29,23 +35,30 @@
     <img id="i1" src="./img/contact.png" alt="Contact | eucacile">
     <p id="p1">feel free to contact me. i'm available for commissions, whether it is to create your visual identity, your website design, your social media strategy... i'll go back to you within 48 hours.</p>
 
-    <form method="post" action="stayintouch.php" data-aos="fade-up" >
-        <label><input type="text" name="name" placeholder="your name" required/></label>
-        <label><input type="email" name="email" placeholder="your email" required></label><br>
-        <label><select name="subject">
+    <form method="post" action="stayintouch.php" data-aos="fade-up" id="form">
+        <div class="inf">
+            <label>
+                <input type="text" name="name" placeholder="your name" required/>
+            </label>
+            <label>
+                <input type="email" name="email" placeholder="your email" required>
+            </label>
+            <br>
+        </div>
+       <div class="chose"><label><select name="subject">
             <option value="">chose your subject</option>
             <option value="work">work</option>
             <option value="quotation">quotation</option>
             <option value="question">question</option>
             <option value="other">other</option>
-        </select></label><br>
-        <label><textarea name="message" id="message" placeholder="your message"></textarea></label>
-        <input id="send" type="submit" name="mailform" value="SEND" />
+        </select></label></div><br>
+        <div class="text"><label><textarea name="message" id="message" placeholder="your message"></textarea></label></div>
+        <div class="divBoutton"><input id="send" type="submit" name="mailform" value="SEND"/></div>
     </form>
 
 </main>
 
-<footer class="fixed">
+<footer class="fixed bottom">
     <ul>
         <li id="1"><a href="legalnotices.html">legal notices</a></li>
         <li id="2"><a href="https://www.instagram.com/eucacile2/" target="_blank">instagram</a></li>

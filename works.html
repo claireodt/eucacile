@@ -10,6 +10,7 @@
     <link rel="stylesheet" href="./css/styles.css">
     <link rel="stylesheet" href="./css/typography.css">
     <link rel="stylesheet" href="./css/responsive.css">
+    <link rel="shortcut icon" type="image/png" href="./img/favicon.png">
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
@@ -17,14 +18,19 @@
 <body>
 <header>
     <a href="index.html"><img src="./img/logo.png" alt="Logo | eucacile"></a>
-    <nav>
+    <div class="nav-toggle" onclick="document.documentElement.classList.toggle('menu-open')">
+        <div class="nav-toggle-bar"></div>
+    </div>
+    <nav class="menu">
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="about.html">About</a></li>
-            <li><a href="#">Works</a></li>
+            <li><a href="works.html">Works</a></li>
             <li><a href="contact.html">Contact</a></li>
         </ul>
     </nav>
+
+
 </header>
 
 <main style="margin-top: 100px">
@@ -50,9 +56,13 @@
     <section data-aos="fade-up" class="othercreations grid">
         <h2>other creations</h2>
         <p>these creations has been made during my free time, either for myself or for external customers.</p>
-        <a id="a5" href="eucacile.html"><img src="img/eucacilethumbnail.png" onmouseover="this.src='img/eucacilethumbnail1.png';" onmouseout="this.src='img/eucacilethumbnail.png';" alt="eucacile project | eucacile"></a>
-        <a id="a6" href="draw.html"><img src="img/projectdraw.png" onmouseover="this.src='img/projectdraw1.png';" onmouseout="this.src='img/projectdraw.png';" alt="draw project | eucacile"></a>
-        <a id="a7" href="atelier.html"><img src="img/projectab.png" onmouseover="this.src='img/projectab1.png';" onmouseout="this.src='img/projectab.png';" alt="atelier du baron project | eucacile"></a>
+<!--        <a id="a5" href="eucacile.html"><img src="img/eucacilethumbnail.png" onmouseover="this.src='img/eucacilethumbnail1.png';" onmouseout="this.src='img/eucacilethumbnail.png';" alt="eucacile project | eucacile"></a>-->
+<!--        <a id="a6" href="draw.html"><img src="img/projectdraw.png" onmouseover="this.src='img/projectdraw1.png';" onmouseout="this.src='img/projectdraw.png';" alt="draw project | eucacile"></a>-->
+<!--        <a id="a7" href="atelier.html"><img src="img/projectab.png" onmouseover="this.src='img/projectab1.png';" onmouseout="this.src='img/projectab.png';" alt="atelier du baron project | eucacile"></a>-->
+
+        <div id="a5"><div class="o1"><img src="img/eucacilethumbnail.png" onclick="window.location.href = 'eucacile.html'" alt="eucacile project | eucacile"></div></div>
+        <div id="a6"><div class="o2"><img src="img/projectdraw.png" onclick="window.location.href = 'draw.html'" alt="draw project | eucacile"></div></div>
+        <div id="a7"><div class="o3"><img src="img/projectab.png" onclick="window.location.href = 'atelier.html'" alt="atelier du baron project | eucacile"></div></div>
 
     </section>
 </main>
