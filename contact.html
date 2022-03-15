@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+        <head>
+            <meta charset="UTF-8">
+            <meta name="viewport"
+                  content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+            <meta http-equiv="X-UA-Compatible" content="ie=edge">
+            <title>Contact | eucacile</title>
+
+            <link rel="stylesheet" href="./css/styles.css">
+            <link rel="stylesheet" href="./css/typography.css">
+            <link rel="stylesheet" href="./css/responsive.css">
+        </head>
+<body>
+<header>
+    <a href="index.html"><img src="./img/logo.png" alt="Logo | eucacile"></a>
+    <nav>
+        <ul>
+            <li><a href="index.html">Home</a></li>
+            <li><a href="about.html">About</a></li>
+            <li><a href="works.html">Works</a></li>
+            <li><a href="#">Contact</a></li>
+        </ul>
+    </nav>
+</header>
+
+<main data-aos="fade-up"  class="grid stayintouch">
+   <h1 id="title1">stay in touch !</h1>
+    <img id="i1" src="./img/contact.png" alt="Contact | eucacile">
+    <p id="p1">feel free to contact me. i'm available for commissions, whether it is to create your visual identity, your website design, your social media strategy... i'll go back to you within 48 hours.</p>
+
+    <form method="post" action="stayintouch.php" data-aos="fade-up" >
+        <label><input type="text" name="name" placeholder="your name" required/></label>
+        <label><input type="email" name="email" placeholder="your email" required></label><br>
+        <label><select name="subject">
+            <option value="">chose your subject</option>
+            <option value="work">work</option>
+            <option value="quotation">quotation</option>
+            <option value="question">question</option>
+            <option value="other">other</option>
+        </select></label><br>
+        <label><textarea name="message" id="message" placeholder="your message"></textarea></label>
+        <input id="send" type="submit" name="mailform" value="SEND" />
+    </form>
+
+</main>
+
+<footer class="fixed">
+    <ul>
+        <li id="1"><a href="legalnotices.html">legal notices</a></li>
+        <li id="2"><a href="https://www.instagram.com/eucacile2/" target="_blank">instagram</a></li>
+        <li id="3"><a href="https://www.linkedin.com/in/claireodt/" target="_blank">linkedin</a></li>
+        <li id="4"><a href="mailto:contact@eucacile.fr">contact</a></li>
+    </ul>
+</footer>
+</body>
+</html>
