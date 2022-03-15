@@ -1,0 +1,215 @@
+    .html {
+        font-size: 16px;
+    }
+
+    /* ----- */
+    /* FONTS */
+    /* ----- */
+
+    @font-face {
+        font-family: Quentin; src: url('./fonts/Quentin.otf');
+    }
+    @font-face {
+        font-family: SpinWerad; src: url('./fonts/spinwerad.ttf');
+    }
+    @font-face {
+        font-family: Forum; src: url('./fonts/Forum-Regular.ttf');
+    }
+    @font-face {
+        font-family: Audrey; src: url('./fonts/Audrey-Normal.otf');
+    }
+    @font-face {
+        font-family: Audrey; font-weight: bold; src: url('./fonts/Audrey-Medium.otf');
+    }
+
+
+
+    /* ---------------- */
+    /* TYPOGRAPHY STYLE */
+    /* ---------------- */
+
+    h1 {
+        font-family: SpinWerad, sans-serif;
+        font-size: 3.125em;
+        text-transform: uppercase;
+        margin: 0;
+    }
+
+    .quentin {
+        font-family: Quentin, sans-serif;
+        text-transform: none;
+    }
+
+    h2 {
+        font-family: SpinWerad, sans-serif;
+        font-size: 2.5em;
+        margin: 0;
+    }
+
+    h3 {
+        font-family: SpinWerad, sans-serif;
+        font-size: 2.188em;
+        margin: 0;
+    }
+
+    p {
+        font-family: Forum, sans-serif;
+        font-size: 1.875em;
+        margin: 0;
+    }
+
+    nav ul {
+        list-style-type: none;
+        padding-left: 0;
+        writing-mode: vertical-lr;
+        text-orientation: sideways;
+    }
+
+    nav a {
+        font-family: Audrey, sans-serif;
+        font-weight: bold;
+        font-size: 1.875em;
+        color: black;
+        text-decoration: none;
+        transition: 0.3s ease-in-out;
+    }
+
+    nav a:hover {
+        letter-spacing: 2px;
+        transition: 0.3s ease-in-out;
+    }
+
+    nav li {
+        text-align: left;
+        margin-right: 2.125em;
+
+    }
+
+    button {
+        font-family: Audrey, sans-serif;
+        font-weight: bold;
+        font-size: 1.563em;
+        text-transform: uppercase;
+        background-color: transparent;
+        border: solid black 1px;
+        padding: 15px 20px 12px 20px;
+        -webkit-transition: ease-in-out 0.5s;
+    }
+
+    button:hover {
+        background-color: black;
+        color: #F2EBE3;
+        -webkit-transition: ease-in-out 0.5s;
+        border-radius: 20px 5px 20px 5px;
+        cursor: pointer;
+    }
+
+    input, textarea {
+        background-color: transparent;
+        font-family: Audrey, sans-serif;
+        font-size: 1.563em;
+        padding: 5px 0 5px 15px;
+        border: solid black 1px;
+        margin-bottom: 20px;
+    }
+
+    input#send {
+        font-family: Audrey, sans-serif;
+        background-color: black;
+        color: #F2EBE3;
+        -webkit-transition: ease-in-out 0.5s;
+        padding: 10px 15px 7px 15px;
+    }
+
+    input#send:hover {
+        background-color: transparent;
+        font-size: 1.563em;
+        color: black;
+        border: solid black 1px;
+        margin-bottom: 20px;
+        border-radius: 20px 5px 20px 5px;
+        cursor: pointer;
+    }
+
+    footer a {
+        font-family: Audrey, sans-serif;
+        font-size: 1.563em;
+        font-weight: bold;
+        text-decoration: none;
+        color: black;
+        transition: 0.3s ease-in-out;
+    }
+
+    footer a:hover {
+        letter-spacing: 2px;
+        transition: 0.3s ease-in-out;
+    }
+
+    select {
+        font-family: 'Audrey', sans-serif;
+        font-size: 1.563em;
+        background-color: transparent;
+        border: solid black 1px;
+        color: grey;
+        padding: 5px 15px 5px 15px;
+        margin-bottom: 20px;
+    }
+
+    .projectinfo h1 {
+        font-size: 3em;
+        position: fixed;
+        top: 64vh;
+        left: 140px;
+    }
+
+    .projectinfo h2 {
+        font-size: 2em;
+        position: fixed;
+        top: 71.5vh;
+        left: 140px;
+    }
+
+    .projectinfo p {
+        font-size: 1.5em;
+        position: fixed;
+        left:140px;
+        top: 78vh;
+        max-width: 630px;
+    }
+
+    .projectinfo figcaption {
+        position: fixed;
+        left: 390px;
+        top: 518px;
+    }
+
+    .frame ul {
+        position: relative;
+        top: -75px;
+        font-family: Forum, sans-serif;
+        font-size: 1.125em;
+        list-style-type: none;
+        margin: 0 50px 0 70px;
+        padding: 0;
+    }
+
+    button.bproj {
+        width: 120px;
+        font-size: 0.625em;
+        padding: 5px 8px 2px 8px;
+        background-color: black;
+        color: white;
+        font-weight: normal;
+        margin-bottom: 10px;
+    }
+
+    button.bproj:hover {
+        border-radius: 10px 2px 10px 2px;
+        background-color: transparent;
+        border: solid 1px black;
+        color: black;
+    }
+
+
+
+

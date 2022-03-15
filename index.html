@@ -1,0 +1,78 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Home | eucacile</title>
+
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="stylesheet" href="./css/typography.css">
+    <link rel="stylesheet" href="./css/responsive.css">
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+
+</head>
+<body>
+    <header>
+        <a href="index.html"><img src="./img/logo.png" alt="Logo | eucacile"></a>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="works.html">Works</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section  data-aos="fade-up" class="grid homepage">
+            <img src="./img/welcome.png" alt="Welcome | eucacile">
+            <h1>Welcome to my <span class="quentin">creative</span> portfolio</h1>
+            <h2>hello, my name is claire.</h2>
+            <p>i am currently studying webdesign and communication. let me introduce myself through some works.</p>
+            <a  data-aos="fade-up" href="#title1"><img src="./img/arrow.png" alt="Arrow | eucacile"></a>
+        </section>
+
+        <section  data-aos="fade-up" class="gettoknowme grid">
+            <h2 id="title1">get to know me</h2>
+            <p id="p1">creation has always been part of my growing process. when i was younger, i started painting, playing music, writing, sewing, drawing. this passion never left me, and when i grew up, i found interest in digital creation.</p>
+            <button id="b1" onclick="window.location.href = 'about.html'">learn more</button>
+            <img id="i1" src="./img/draw.png" alt="Draw | eucacile">
+            <img id="i2" src="./img/coffee.png" alt="Newspaper & coffee | eucacile">
+            <h2 id="title2">about my activity</h2>
+            <img  data-aos="fade-up" id="i3" src="./img/exhibition.png" alt="Art exhibition | eucacile">
+            <p id="p2">when i left highschool, i chose to study multimedia and internet technologies. <br>this degree allowed me to learn a lot about web design, online communication, project management and development. i also improved my skills during practical educational projects and personal creations.</p>
+            <button id="b2" onclick="window.location.href = 'works.html'">discover my works</button>
+        </section>
+        <aside  data-aos="fade-up" class="letswork grid">
+            <h2>let's work together !</h2>
+            <img src="./img/morph.png" alt="Forme de fond | eucacile">
+            <p> looking for someone to create your brand's graphic identity ? your website ? your social network communication strategy ? fill the contact form below and i will get back to you as soon as possible !</p>
+
+            <form method="post" action="letswork.php">
+                <label><input id="f1" type="text" name="name" placeholder="your name" required/></label>
+                <label><input id="f2" type="email" name="email" placeholder="your email" required></label><br>
+                <label id="f3"><textarea name="message" id="message" placeholder="your message"></textarea></label>
+                <input id="send" type="submit" name="mailform" value="SEND" />
+            </form>
+        </aside>
+    </main>
+
+    <footer>
+        <ul>
+            <li id="1"><a href="legalnotices.html">legal notices</a></li>
+            <li id="2"><a href="https://www.instagram.com/eucacile2/" target="_blank">instagram</a></li>
+            <li id="3"><a href="https://www.linkedin.com/in/claireodt/" target="_blank">linkedin</a></li>
+            <li id="4"><a href="mailto:contact@eucacile.fr">contact</a></li>
+        </ul>
+    </footer>
+</body>
+
+    <script>
+        AOS.init();
+    </script>
+
+</html>

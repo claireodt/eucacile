@@ -1,0 +1,2201 @@
+/* ---------------- */
+/* RESPONSIVE PHONE */
+/* ---------------- */
+
+    @media (max-width: 490px) {
+
+        .grid {
+            margin-left: 1em;
+            margin-right: 1em;
+            grid-template-columns: repeat(6, 1fr);
+            grid-gap: 0.5em;
+        }
+
+        h1 {
+            font-size: 2em;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 1.5em;
+        }
+
+        h3 {
+            font-size: 1.4em;
+        }
+
+        p {
+            font-size: 1.375em;
+        }
+
+        button, input#send {
+            font-size: 1em;
+            padding: 10px 15px 7px 15px;
+        }
+
+        /* HOMEPAGE */
+
+        .homepage {
+            grid-template-rows: repeat(5, auto);
+            margin-bottom: 50px;
+        }
+
+        .homepage h1 {
+            grid-column: 1/7;
+            grid-row: 1/2;
+        }
+
+        .homepage img {
+            grid-row: 2/3;
+            grid-column: 2/6;
+            margin-bottom: 10px;
+        }
+
+        .homepage h2 {
+            grid-row: 3/4;
+            grid-column: 1/7;
+            text-align: center;
+        }
+
+        .homepage p {
+            grid-row: 4/5;
+            grid-column: 1/7;
+        }
+
+        .homepage a {
+            margin-top: 20px;
+            grid-column: 3/5;
+            grid-row:5/6;
+            justify-self: center;
+        }
+
+        .homepage a>img {
+            width: 25px;
+        }
+
+        /* GET TO KNOW ME */
+
+        .gettoknowme {
+            grid-template-rows: repeat(8,auto);
+        }
+
+        .gettoknowme h2#title1 {
+            background-image: none;
+            text-indent: 0;
+            width: auto;
+            height: auto;
+            grid-row: 1/2;
+            grid-column: 1/7;
+            text-align: center;
+            margin: 0.469em 0 0.469em 0;
+        }
+
+        .gettoknowme img#i1 {
+            grid-column: 1/4;
+            grid-row: 2/3;
+            padding: 0 0 20px 0;
+        }
+
+        .gettoknowme img#i2 {
+            grid-column: 4/7;
+            grid-row: 2/3;
+            padding: 0 0 20px 0;
+        }
+
+        .gettoknowme p#p1 {
+            grid-row: 3/4;
+            grid-column: 1/7;
+            text-align: left;
+        }
+
+        .gettoknowme button#b1 {
+            grid-row: 4/5;
+            grid-column: 2/6;
+            margin-top: 20px;
+            justify-self: center;
+        }
+
+        .gettoknowme img#i3 {
+            grid-column: 1/7;
+            grid-row: 5/6;
+            margin-top: 70px;
+        }
+
+        .gettoknowme h2#title2 {
+            grid-row: 6/7;
+            grid-column: 1/7;
+            margin: 0.469em 0 0.469em 0;
+            text-align: center;
+        }
+
+        .gettoknowme p#p2 {
+            grid-row: 7/8;
+            grid-column: 1/7;
+        }
+
+        .gettoknowme button#b2 {
+            grid-row: 8/9;
+            grid-column: 2/6;
+            margin-top: 20px;
+        }
+
+        /* LET'S WORK TOGETHER */
+
+        .letswork {
+            grid-template-rows: repeat(3,auto);
+            margin-top: 70px;
+        }
+
+        .letswork h2 {
+            grid-column: 1/7;
+            grid-row: 1/2;
+        }
+
+        .letswork img {
+            grid-column: 1/7;
+            grid-row: 1/4;
+        }
+
+        .letswork p {
+            grid-column: 1/7;
+            grid-row: 2/3;
+        }
+
+        .letswork form {
+            margin-top: 30px;
+            grid-row: 3/4;
+            grid-column: 1/7;
+        }
+
+        input, textarea, select {
+            font-size: 1.2em;
+        }
+
+        footer {
+            margin-top: 50px;
+        }
+
+        footer a {
+            font-size: 1em;
+            font-weight: normal;
+        }
+
+        /* STAY IN TOUCH */
+
+        .stayintouch {
+            grid-template-rows: repeat(4, auto);
+        }
+
+        .stayintouch #title1 {
+            grid-column: 1/7;
+            grid-row: 1/2;
+            width: auto;
+            background-size: 80vw;
+            background-repeat: no-repeat;
+            background-position: center;
+        }
+
+        .stayintouch #i1 {
+            grid-column: 1/7;
+            grid-row: 2/3;
+            max-width: 90vw;
+            margin-bottom: 20px;
+        }
+
+        .stayintouch #p1 {
+            grid-column: 1/7;
+            grid-row: 3/4;
+            margin-bottom: 20px;
+        }
+
+        .stayintouch form {
+            grid-column: 1/7;
+            grid-row: 4/5;
+        }
+
+        /* ABOUT */
+
+        .moreaboutme {
+            grid-template-rows: repeat(6,auto);
+        }
+
+        .moreaboutme h1#title1 {
+            background-image: none;
+            text-indent: 0;
+            width: auto;
+            height: auto;
+            grid-row: 1/2;
+            grid-column: 1/7;
+            justify-self: center;
+            margin: 0.469em 0 0.469em 0;
+        }
+
+        .moreaboutme img#i1 {
+            grid-column: 1/4;
+            grid-row: 2/4;
+            padding: 15px 0 15px 0;
+        }
+
+        .moreaboutme img#i2 {
+            grid-column: 3/7;
+            grid-row: 2/4;
+            align-self: center;
+        }
+
+        .moreaboutme h2#title2{
+            grid-column: 1/7;
+            text-align: center;
+            grid-row: 4/5;
+            margin: 0.469em 0 0.469em 0;
+        }
+
+        .moreaboutme p#p1 {
+            grid-column: 1/7;
+            grid-row: 5/6;
+            padding-bottom: 15px;
+        }
+
+        .moreaboutme img#i3 {
+            width: 25px;
+            grid-column: 2/6;
+            grid-row: 6/7;
+            justify-self: center;
+        }
+
+        .mystory {
+            margin-top: 70px;
+            grid-template-rows: repeat(10,auto);
+        }
+
+        .mystory img#i4 {
+            grid-column: 2/6;
+            grid-row: 1/3;
+            padding-bottom: 60px;
+        }
+
+        .mystory img#i5 {
+            grid-column: 1/5;
+            grid-row: 2/3;
+            align-self: end;
+            margin-bottom: 0;
+        }
+
+        .mystory h3#title3 {
+            grid-row: 3/4;
+            grid-column: 1/7;
+            margin: 0.469em 0 0.469em 0;
+            text-align: center;
+        }
+
+        .mystory p#p2 {
+            grid-row: 4/5;
+            grid-column: 2/6;
+            margin-bottom: 50px;
+        }
+
+        .mystory img#i6 {
+            grid-row: 5/6;
+            grid-column: 3/4;
+            margin-bottom: 15px;
+        }
+
+        .mystory p#p3 {
+            grid-row: 6/7;
+            grid-column: 2/6;
+            margin-bottom: 70px;
+        }
+
+        .mystory img#i7 {
+            grid-row: 7/8;
+            grid-column: 1/7;
+            margin-bottom: 40px;
+        }
+
+        .mystory h3#title4 {
+            grid-row: 8/9;
+            grid-column: 1/7;
+            text-align: center;
+            margin: 0.469em 0 0.469em 0;
+        }
+
+        .mystory p#p4 {
+            grid-row: 9/10;
+            grid-column: 2/6;
+        }
+
+        .mystory button {
+            grid-row: 10/11;
+            grid-column: 2/6;
+            margin-top: 35px;
+        }
+
+        /* WORKS */
+
+        .discover {
+            grid-template-rows: repeat(2,auto);
+        }
+
+        .discover img#i2 {
+            grid-column: 2/6;
+            grid-row: 1/2;
+        }
+
+        .discover img#i1 {
+            grid-column: 1/2;
+            grid-row: 1/2;
+            align-self: end;
+        }
+
+        .discover img#i3 {
+            grid-column: 6/7;
+            grid-row: 1/2;
+            align-self: end;
+        }
+
+        .discover img#i5 {
+            grid-column: 3/5;
+            grid-row: 2/3;
+            justify-self: center;
+            max-width: 80px;
+        }
+
+        .school {
+            margin-top: 100px;
+            grid-template-rows: repeat(6,auto);
+        }
+
+        .school h2 {
+            grid-column: 2/6;
+            grid-row: 1/2;
+        }
+
+        .school img#i8 {
+            grid-column: 1/7;
+            grid-row: 1/7;
+        }
+
+        .school p#p1 {
+            grid-column: 2/6;
+            grid-row: 2/3;
+            justify-self: center;
+            text-align: center;
+        }
+
+        .school a#a1 {
+            grid-column: 2/6;
+            grid-row: 3/4;
+            justify-self: center;
+        }
+
+        .school a#a2 {
+            grid-column: 2/6;
+            grid-row: 4/5;
+            justify-self: right;
+        }
+
+        .school a#a3 {
+            grid-column: 1/7;
+            grid-row: 5/6;
+            justify-self: center;
+        }
+
+        .school img#i9 {
+            grid-column: 5/7;
+            grid-row: 3/4;
+            padding-left: 20px;
+            align-self: center;
+        }
+
+        .othercreations {
+            margin-top: 100px;
+            grid-template-rows: repeat(5,auto);
+        }
+
+        .othercreations h2 {
+            grid-column: 1/7;
+            grid-row: 1/2;
+            max-width: 100%;
+        }
+
+        .othercreations p {
+            grid-column: 1/7;
+            margin-bottom: 50px;
+            grid-row: 2/3;
+        }
+
+        .othercreations a#a5 {
+            grid-column: 1/7;
+            grid-row: 3/4;
+            justify-self: center;
+            padding-bottom: 20px;
+        }
+
+        .othercreations a#a6 {
+            grid-column: 1/7;
+            grid-row: 4/5;
+            justify-self: center;
+            padding-bottom: 20px;
+        }
+
+        .othercreations a#a7 {
+            grid-column: 1/7;
+            grid-row: 5/6;
+            justify-self: center;
+        }
+
+        .othercreations #a5>img, .othercreations #a7>img {
+            border-radius: 0;
+        }
+    }
+
+    @media (min-width: 491px) and (max-width: 600px) {
+
+        .grid {
+            margin-left: 2em;
+            margin-right: 2em;
+            grid-template-columns: repeat(6, 1fr);
+            grid-gap: 0.5em;
+        }
+
+        h1 {
+            font-size: 2em;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 1.5em;
+        }
+
+        p {
+            font-size: 1.3em;
+        }
+
+        button, input#send {
+            font-size: 1.2em;
+            padding: 12px 17px 9px 17px;
+        }
+
+        /* HOMEPAGE */
+
+        .homepage {
+            grid-template-rows: repeat(5, auto);
+            margin-bottom: 50px;
+        }
+
+        .homepage h1 {
+            grid-column: 1/7;
+            grid-row: 1/2;
+        }
+
+        .homepage img {
+            grid-row: 2/3;
+            grid-column: 2/6;
+            margin-bottom: 10px;
+        }
+
+        .homepage h2 {
+            grid-row: 3/4;
+            grid-column: 1/7;
+            text-align: center;
+        }
+
+        .homepage p {
+            grid-row: 4/5;
+            grid-column: 1/7;
+        }
+
+        .homepage a {
+            margin-top: 20px;
+            grid-column: 3/5;
+            grid-row:5/6;
+            justify-self: center;
+        }
+
+        .homepage a>img {
+            width: 35px;
+        }
+
+        /* GET TO KNOW ME */
+
+        .gettoknowme {
+            grid-template-rows: repeat(8,auto);
+        }
+
+        .gettoknowme h2#title1 {
+            grid-column: 1/3;
+            grid-row: 1/2;
+            background-image: url("../img/gettoknowme.png");
+            width: 122px;
+            height: 184px;
+            text-indent: -3333px;
+            align-self: start;
+            margin-top: 0;
+        }
+
+        .gettoknowme img#i1 {
+            grid-column: 3/5;
+            grid-row: 1/2;
+            padding: 0 0 20px 0;
+        }
+
+        .gettoknowme img#i2 {
+            grid-column: 5/7;
+            grid-row: 1/2;
+            padding: 0 0 20px 0;
+        }
+
+        .gettoknowme p#p1 {
+            grid-row: 2/3;
+            grid-column: 1/7;
+            text-align: left;
+        }
+
+        .gettoknowme button#b1 {
+            grid-row: 3/4;
+            grid-column: 2/6;
+            margin-top: 30px;
+            justify-self: center;
+        }
+
+        .gettoknowme img#i3 {
+            grid-column: 1/7;
+            grid-row: 5/6;
+            margin-top: 0;
+            padding-bottom: 20px;
+        }
+
+        .gettoknowme h2#title2 {
+            grid-row: 4/5;
+            grid-column: 1/7;
+            margin: 70px 0 0.6em 0;
+            text-align: center;
+        }
+
+        .gettoknowme p#p2 {
+            grid-row: 6/7;
+            grid-column: 1/7;
+        }
+
+        .gettoknowme button#b2 {
+            grid-row: 8/9;
+            grid-column: 3/5;
+            margin-top: 30px;
+        }
+
+        /* LET'S WORK TOGETHER */
+
+        .letswork {
+            grid-template-rows: repeat(3,auto);
+            margin-top: 70px;
+        }
+
+        .letswork h2 {
+            grid-column: 2/6;
+            margin: 0.6em 0 0.6em 0;
+            grid-row: 1/2;
+        }
+
+        .letswork img {
+            grid-column: 2/6;
+            grid-row: 1/4;
+        }
+
+        .letswork p {
+            grid-column: 2/6;
+            grid-row: 2/3;
+        }
+
+        .letswork form {
+            margin-top: 40px;
+            grid-row: 3/4;
+            grid-column: 2/6;
+        }
+
+        input, textarea, select {
+            font-size: 1.4em;
+        }
+
+        footer {
+            margin-top: 50px;
+        }
+
+        footer a {
+            font-size: 1.4em;
+            font-weight: normal;
+        }
+
+        /* STAY IN TOUCH */
+
+        .stayintouch {
+            grid-template-rows: repeat(4, auto);
+        }
+
+        .stayintouch #title1 {
+            grid-column: 1/7;
+            grid-row: 1/2;
+            width: auto;
+            max-width: 100%;
+            background-size: 70vw;
+            background-repeat: no-repeat;
+            background-position: center;
+            margin-bottom: 20px;
+        }
+
+        .stayintouch #i1 {
+            grid-column: 1/7;
+            grid-row: 2/3;
+            max-width: 70vw;
+            margin-bottom: 20px;
+            justify-self: center;
+        }
+
+        .stayintouch #p1 {
+            grid-column: 1/7;
+            grid-row: 3/4;
+            margin-bottom: 20px;
+        }
+
+        .stayintouch form {
+            grid-column: 1/7;
+            grid-row: 4/5;
+        }
+
+        /* ABOUT */
+
+        .moreaboutme {
+            grid-template-rows: repeat(6,auto);
+        }
+
+        .moreaboutme h1#title1 {
+            grid-row: 3/4;
+            grid-column: 1/7;
+            justify-self: center;
+            margin-bottom: 40px;
+            max-width: 100%;
+        }
+
+        .moreaboutme img#i1 {
+            grid-column: 1/4;
+            grid-row: 1/4;
+            padding: 15px 0 15px 0;
+            align-self: end;
+            max-width: 100%;
+        }
+
+        .moreaboutme img#i2 {
+            grid-column: 3/7;
+            grid-row: 2/3;
+            align-self: center;
+            max-width: 100%;
+        }
+
+        .moreaboutme h2#title2{
+            grid-column: 1/7;
+            text-align: center;
+            grid-row: 4/5;
+            margin: 0.469em 0 0.469em 0;
+        }
+
+        .moreaboutme p#p1 {
+            grid-column: 2/6;
+            grid-row: 5/6;
+            padding-bottom: 15px;
+        }
+
+        .moreaboutme img#i3 {
+            width: 25px;
+            grid-column: 2/6;
+            grid-row: 6/7;
+            justify-self: center;
+            max-width: 100%;
+        }
+
+        .mystory {
+            margin-top: 70px;
+            grid-template-rows: repeat(10,auto);
+        }
+
+        .mystory img#i4 {
+            grid-column: 2/6;
+            grid-row: 1/3;
+            padding-bottom: 60px;
+            max-width: 100%;
+        }
+
+        .mystory img#i5 {
+            grid-column: 1/5;
+            grid-row: 2/3;
+            align-self: end;
+            margin-bottom: 0;
+            max-width: 100%;
+        }
+
+        .mystory h3#title3 {
+            grid-row: 3/4;
+            grid-column: 1/7;
+            margin: 0.469em 0 0.469em 0;
+            text-align: center;
+        }
+
+        .mystory p#p2 {
+            grid-row: 4/5;
+            grid-column: 2/6;
+            margin-bottom: 50px;
+        }
+
+        .mystory img#i6 {
+            grid-row: 5/6;
+            grid-column: 3/4;
+            margin-bottom: 15px;
+            max-width: 100%;
+        }
+
+        .mystory p#p3 {
+            grid-row: 6/7;
+            grid-column: 2/6;
+            margin-bottom: 70px;
+        }
+
+        .mystory img#i7 {
+            grid-row: 7/8;
+            grid-column: 2/6;
+            margin-bottom: 40px;
+            max-width: 100%;
+        }
+
+        .mystory h3#title4 {
+            grid-row: 8/9;
+            grid-column: 1/7;
+            text-align: center;
+            margin: 0.469em 0 0.469em 0;
+        }
+
+        .mystory p#p4 {
+            grid-row: 9/10;
+            grid-column: 2/6;
+        }
+
+        .mystory button {
+            grid-row: 10/11;
+            grid-column: 2/6;
+            margin-top: 35px;
+            max-width: 100%;
+        }
+
+        /* WORKS */
+
+        .discover {
+            grid-template-rows: repeat(2,auto);
+        }
+
+        .discover img#i2 {
+            grid-column: 2/6;
+            grid-row: 1/2;
+        }
+
+        .discover img#i1 {
+            grid-column: 1/2;
+            grid-row: 1/2;
+            align-self: end;
+        }
+
+        .discover img#i3 {
+            grid-column: 6/7;
+            grid-row: 1/2;
+            align-self: end;
+        }
+
+        .discover img#i5 {
+            grid-column: 3/5;
+            grid-row: 2/3;
+            justify-self: center;
+            max-width: 80px;
+        }
+
+        .school {
+            margin-top: 100px;
+            grid-template-rows: repeat(6,auto);
+        }
+
+        .school h2 {
+            grid-column: 2/6;
+            grid-row: 1/2;
+            justify-self: center;
+        }
+
+        .school img#i8 {
+            grid-column: 2/6;
+            grid-row: 1/7;
+        }
+
+        .school p#p1 {
+            grid-column: 1/7;
+            grid-row: 2/3;
+            justify-self: center;
+            text-align: center;
+        }
+
+        .school a#a1 {
+            grid-column: 2/6;
+            grid-row: 3/4;
+            justify-self: center;
+        }
+
+        .school a#a2 {
+            grid-column: 2/6;
+            grid-row: 4/5;
+            justify-self: right;
+        }
+
+        .school a#a3 {
+            grid-column: 1/7;
+            grid-row: 5/6;
+            justify-self: center;
+        }
+
+        .school img#i9 {
+            grid-column: 5/7;
+            grid-row: 3/4;
+            padding-left: 20px;
+            align-self: center;
+        }
+
+        .othercreations {
+            margin-top: 100px;
+            grid-template-rows: repeat(5,auto);
+        }
+
+        .othercreations h2 {
+            grid-column: 1/7;
+            grid-row: 1/2;
+            max-width: 100%;
+        }
+
+        .othercreations p {
+            grid-column: 1/7;
+            margin-bottom: 50px;
+            grid-row: 2/3;
+        }
+
+        .othercreations a#a5 {
+            grid-column: 1/7;
+            grid-row: 3/4;
+            justify-self: center;
+            padding-bottom: 20px;
+        }
+
+        .othercreations a#a6 {
+            grid-column: 1/7;
+            grid-row: 4/5;
+            justify-self: center;
+            padding-bottom: 20px;
+        }
+
+        .othercreations a#a7 {
+            grid-column: 1/7;
+            grid-row: 5/6;
+            justify-self: center;
+        }
+
+        .othercreations #a5>img, .othercreations #a7>img {
+            border-radius: 0;
+        }
+    }
+
+    @media (min-width: 601px) and (max-width: 1000px) {
+
+        .grid {
+            margin-left: 3em;
+            margin-right: 3em;
+            grid-template-columns: repeat(9, 1fr);
+            grid-gap: 0.5em;
+        }
+
+        h1 {
+            font-size: 2em;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 1.7em;
+        }
+
+        h3 {
+            font-size: 1.5em;
+        }
+
+        p {
+            font-size: 1.4em;
+        }
+
+        button, input#send {
+            font-size: 1em;
+            padding: 12px 17px 9px 17px;
+        }
+
+        /* HOMEPAGE */
+
+        .homepage {
+            grid-template-rows: repeat(4, auto);
+            margin-bottom: 100px;
+        }
+
+        .homepage h1 {
+            grid-column: 4/10;
+            grid-row: 1/2;
+            margin: 0;
+            padding-left: 1.7vw;
+        }
+
+        .homepage h2 {
+            grid-row: 2/3;
+            grid-column: 4/10;
+            margin: 0;
+            padding-left: 1.7vw;
+            text-align: center;
+        }
+
+        .homepage img {
+            grid-column: 1/4;
+            grid-row: 1/5;
+        }
+
+        .homepage p {
+            grid-column: 4/10;
+            grid-row: 3/4;
+            padding-left: 1.7vw;
+            text-align: center;
+        }
+
+        .homepage a {
+            grid-column: 7/8;
+            grid-row: 4/5;
+            padding-left: 1.7vw;
+            align-self: end;
+        }
+
+        .homepage a>img {
+            width: 25px;
+        }
+
+        /* GET TO KNOW ME */
+
+        .gettoknowme {
+            grid-template-rows: repeat(8,auto);
+        }
+
+        .gettoknowme h2#title1 {
+            grid-column: 2/5;
+            grid-row: 1/2;
+            background-image: url("../img/gettoknowme.png");
+            background-repeat: no-repeat;
+            width: 122px;
+            height: 184px;
+            text-indent: -3333px;
+            justify-self: center;
+            margin-top: 0;
+        }
+
+        .gettoknowme img#i1 {
+            grid-column: 5/7;
+            grid-row: 1/2;
+            padding: 0 0 40px 0;
+        }
+
+        .gettoknowme img#i2 {
+            grid-column: 7/9;
+            grid-row: 1/2;
+            padding: 0 0 50px 0;
+        }
+
+        .gettoknowme p#p1 {
+            grid-row: 2/3;
+            grid-column: 3/9;
+            text-align: left;
+        }
+
+        .gettoknowme button#b1 {
+            grid-row: 3/4;
+            grid-column: 4/9;
+            margin-top: 30px;
+            justify-self: center;
+        }
+
+        .gettoknowme img#i3 {
+            grid-column: 3/8;
+            grid-row: 5/6;
+            align-self: center;
+            margin-top: 50px;
+        }
+
+        .gettoknowme h2#title2 {
+            grid-row: 6/7;
+            grid-column: 2/9;
+            margin: 0.6em 0 0.6em 0;
+            text-align: center;
+        }
+
+        .gettoknowme p#p2 {
+            grid-row: 7/8;
+            grid-column: 2/9;
+        }
+
+        .gettoknowme button#b2 {
+            grid-row: 8/9;
+            grid-column: 4/7;
+            margin-top: 30px;
+        }
+
+        /* LET'S WORK TOGETHER */
+
+            .letswork {
+                grid-template-rows: repeat(3,auto);
+                margin-top: 70px;
+            }
+
+            .letswork h2 {
+                grid-column: 2/9;
+                margin: 0.6em 0 0.6em 0;
+                grid-row: 1/2;
+            }
+
+            .letswork img {
+                grid-column: 2/9;
+                grid-row: 1/4;
+            }
+
+            .letswork p {
+                grid-column: 2/9;
+                grid-row: 2/3;
+            }
+
+            .letswork form {
+                margin-top: 40px;
+                grid-row: 3/4;
+                grid-column: 2/9;
+            }
+
+            input, textarea, select {
+                font-size: 1.4em;
+            }
+
+            footer {
+                margin-top: 50px;
+            }
+
+            footer a {
+                font-size: 1.2em;
+                font-weight: normal;
+            }
+
+        /* STAY IN TOUCH */
+
+        .stayintouch {
+            grid-template-rows: repeat(4, auto);
+        }
+
+        .stayintouch #title1 {
+            grid-column: 1/10;
+            grid-row: 1/2;
+            max-width: 100%;
+            background-repeat: no-repeat;
+            margin-bottom: 40px;
+            justify-self: center;
+        }
+
+        .stayintouch #i1 {
+            grid-column: 1/10;
+            grid-row: 2/3;
+            max-width: 70vw;
+            margin-bottom: 40px;
+            justify-self: center;
+        }
+
+        .stayintouch #p1 {
+            grid-column: 2/9;
+            grid-row: 3/4;
+            margin-bottom: 40px;
+        }
+
+        .stayintouch form {
+            grid-column: 2/9;
+            grid-row: 4/5;
+        }
+
+        /* ABOUT */
+
+        .moreaboutme {
+            grid-template-rows: repeat(6,auto);
+        }
+
+        .moreaboutme h1#title1 {
+            grid-row: 3/4;
+            grid-column: 1/10;
+            margin-bottom: 40px;
+            max-width: 100%;
+            justify-self: right;
+        }
+
+        .moreaboutme img#i1 {
+            grid-column: 1/6;
+            grid-row: 1/4;
+            padding: 15px 0 15px 0;
+            align-self: end;
+            max-width: 100%;
+        }
+
+        .moreaboutme img#i2 {
+            grid-column: 3/10;
+            grid-row: 2/3;
+            align-self: center;
+            max-width: 100%;
+            justify-self: center;
+        }
+
+        .moreaboutme h2#title2{
+            grid-column: 1/10;
+            text-align: center;
+            grid-row: 4/5;
+            margin: 0.6em 0 0.6em 0;
+        }
+
+        .moreaboutme p#p1 {
+            grid-column: 2/9;
+            grid-row: 5/6;
+            padding-bottom: 30px;
+            justify-self: center;
+        }
+
+        .moreaboutme img#i3 {
+            width: 25px;
+            grid-column: 5/6;
+            grid-row: 6/7;
+            justify-self: center;
+            max-width: 100%;
+        }
+
+        .mystory {
+            margin-top: 100px;
+            grid-template-rows: repeat(10,auto);
+        }
+
+        .mystory img#i4 {
+            grid-column: 3/8;
+            grid-row: 1/3;
+            padding-bottom: 60px;
+            max-width: 100%;
+        }
+
+        .mystory img#i5 {
+            grid-column: 1/7;
+            grid-row: 2/3;
+            align-self: end;
+            margin-bottom: 0;
+            max-width: 100%;
+        }
+
+        .mystory h3#title3 {
+            grid-row: 3/4;
+            grid-column: 1/10;
+            margin: 0.469em 0 0.469em 0;
+            text-align: center;
+        }
+
+        .mystory p#p2 {
+            grid-row: 4/5;
+            grid-column: 1/6;
+            margin-bottom: 50px;
+        }
+
+        .mystory img#i6 {
+            grid-row: 5/6;
+            grid-column: 3/5;
+            margin-bottom: 50px;
+            width: 50px;
+            justify-self: center;
+        }
+
+        .mystory p#p3 {
+            grid-row: 6/7;
+            grid-column: 4/10;
+            margin-bottom: 70px;
+        }
+
+        .mystory img#i7 {
+            grid-row: 7/8;
+            grid-column: 3/8;
+            margin-bottom: 40px;
+            max-width: 100%;
+        }
+
+        .mystory h3#title4 {
+            grid-row: 8/9;
+            grid-column: 1/10;
+            text-align: center;
+            margin: 0.469em 0 0.469em 0;
+        }
+
+        .mystory p#p4 {
+            grid-row: 9/10;
+            grid-column: 1/10;
+        }
+
+        .mystory button {
+            grid-row: 10/11;
+            grid-column: 3/8;
+            margin-top: 35px;
+            max-width: 100%;
+        }
+
+        /* WORKS */
+
+        .discover {
+            grid-template-rows: repeat(2,auto);
+        }
+
+        .discover img#i2 {
+            grid-column: 3/8;
+            grid-row: 1/2;
+        }
+
+        .discover img#i1 {
+            grid-column: 2/3;
+            grid-row: 1/2;
+            align-self: end;
+        }
+
+        .discover img#i3 {
+            grid-column: 8/9;
+            grid-row: 1/2;
+            align-self: end;
+        }
+
+        .discover img#i5 {
+            grid-column: 4/7;
+            grid-row: 2/3;
+            justify-self: center;
+            max-width: 80px;
+        }
+
+        .school {
+            margin-top: 100px;
+            grid-template-rows: repeat(6,auto);
+        }
+
+        .school h2 {
+            grid-column: 3/8;
+            grid-row: 1/2;
+            justify-self: center;
+        }
+
+        .school img#i8 {
+            grid-column: 2/9;
+            grid-row: 1/7;
+        }
+
+        .school p#p1 {
+            grid-column: 3/8;
+            grid-row: 2/3;
+            justify-self: center;
+            text-align: center;
+        }
+
+        .school a#a1 {
+            grid-column: 4/7;
+            grid-row: 3/4;
+            justify-self: center;
+            padding-left: 20px;
+        }
+
+        .school a#a2 {
+            grid-column: 4/7;
+            grid-row: 4/5;
+            justify-self: right;
+            padding-left: 20px;
+        }
+
+        .school a#a3 {
+            grid-column: 3/8;
+            grid-row: 5/6;
+            justify-self: center;
+        }
+
+        .school img#i9 {
+            grid-column: 7/8;
+            grid-row: 3/4;
+            padding-left: 20px;
+            align-self: center;
+        }
+
+        .othercreations {
+            margin-top: 100px;
+            grid-template-rows: repeat(5,auto);
+        }
+
+        .othercreations h2 {
+            grid-column: 1/10;
+            grid-row: 1/2;
+            max-width: 100%;
+        }
+
+        .othercreations p {
+            grid-column: 3/8;
+            margin-bottom: 50px;
+            grid-row: 2/3;
+        }
+
+        .othercreations a#a5 {
+            grid-column: 1/10;
+            grid-row: 3/4;
+            justify-self: center;
+            padding-bottom: 30px;
+        }
+
+        .othercreations a#a6 {
+            grid-column: 1/10;
+            grid-row: 4/5;
+            justify-self: center;
+            padding-bottom: 30px;
+        }
+
+        .othercreations a#a7 {
+            grid-column: 1/10;
+            grid-row: 5/6;
+            justify-self: center;
+        }
+
+        .othercreations #a5>img, .othercreations #a7>img {
+            border-radius: 0;
+        }
+
+    }
+
+    @media (min-width: 801px) and (max-width: 1000px) {
+        .grid {
+            margin-left: 3em;
+            margin-right: 3em;
+            grid-template-columns: repeat(9, 1fr);
+            grid-gap: 0.5em;
+        }
+
+        h1 {
+            font-size: 2em;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 1.7em;
+        }
+
+        h3 {
+            font-size: 1.5em;
+        }
+
+        p {
+            font-size: 1.4em;
+        }
+
+        button, input#send {
+            font-size: 1em;
+            padding: 12px 17px 9px 17px;
+        }
+
+        footer {
+            margin-top: 50px;
+        }
+
+        footer a {
+            font-size: 1.2em;
+            font-weight: normal;
+        }
+
+        /* ABOUT */
+
+        .moreaboutme {
+            grid-template-rows: repeat(6,auto);
+        }
+
+        .moreaboutme h1#title1 {
+            grid-row: 3/4;
+            grid-column: 5/10;
+            margin-bottom: 115px;
+            max-width: 100%;
+            justify-self: center;
+        }
+
+        .moreaboutme img#i1 {
+            grid-column: 2/6;
+            grid-row: 1/4;
+            padding: 15px 0 15px 0;
+            align-self: end;
+            max-width: 100%;
+        }
+
+        .moreaboutme img#i2 {
+            grid-column: 3/10;
+            grid-row: 2/3;
+            align-self: center;
+            max-width: 100%;
+            justify-self: center;
+        }
+
+        .moreaboutme h2#title2{
+            grid-column: 1/10;
+            text-align: center;
+            grid-row: 4/5;
+            margin: 1.5em 0 1em 0;
+        }
+
+        .moreaboutme p#p1 {
+            grid-column: 3/8;
+            grid-row: 5/6;
+            padding-bottom: 50px;
+            justify-self: center;
+        }
+
+        .moreaboutme img#i3 {
+            width: 35px;
+            grid-column: 5/6;
+            grid-row: 6/7;
+            justify-self: center;
+            max-width: 100%;
+        }
+
+        .mystory {
+            margin-top: 120px;
+            grid-template-rows: repeat(10,auto);
+        }
+
+        .mystory img#i4 {
+            grid-column: 3/8;
+            grid-row: 1/3;
+            padding-bottom: 60px;
+            max-width: 100%;
+            justify-self: center;
+        }
+
+        .mystory img#i5 {
+            grid-column: 1/7;
+            grid-row: 2/3;
+            align-self: center;
+            margin-bottom: 0;
+            max-width: 100%;
+            justify-self: right;
+        }
+
+        .mystory h3#title3 {
+            grid-row: 3/4;
+            grid-column: 1/10;
+            margin: 0 0 0.8em 0;
+            text-align: center;
+        }
+
+        .mystory p#p2 {
+            grid-row: 4/5;
+            grid-column: 2/7;
+            margin-bottom: 50px;
+        }
+
+        .mystory img#i6 {
+            grid-row: 5/6;
+            grid-column: 4/6;
+            margin-bottom: 50px;
+            width: 50px;
+            justify-self: center;
+        }
+
+        .mystory p#p3 {
+            grid-row: 6/7;
+            grid-column: 3/9;
+            margin-bottom: 100px;
+        }
+
+        .mystory img#i7 {
+            grid-row: 7/8;
+            grid-column: 3/8;
+            margin-bottom: 40px;
+            max-width: 100%;
+        }
+
+        .mystory h3#title4 {
+            grid-row: 8/9;
+            grid-column: 1/10;
+            text-align: center;
+            margin: 1.2em 0 0.8em 0;
+        }
+
+        .mystory p#p4 {
+            grid-row: 9/10;
+            grid-column: 2/9;
+        }
+
+        .mystory button {
+            grid-row: 10/11;
+            grid-column: 4/7;
+            margin-top: 50px;
+            max-width: 100%;
+        }
+    }
+
+    @media (min-width: 1001px) and (max-width: 1200px) {
+
+        .grid {
+            margin-left: 3em;
+            margin-right: 3em;
+            grid-template-columns: repeat(12, 1fr);
+            grid-gap: 0.5em;
+        }
+
+        h1 {
+            font-size: 2.1em;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 1.8em;
+        }
+
+        p {
+            font-size: 1.5em;
+        }
+
+        button, input#send {
+            font-size: 1.2em;
+            padding: 14px 19px 11px 19px;
+        }
+
+        /* HOMEPAGE */
+
+        .homepage {
+            grid-template-rows: repeat(4, auto);
+            margin-bottom: 150px;
+        }
+
+        .homepage h1 {
+            grid-column: 7/13;
+            grid-row: 1/2;
+            margin: 0;
+        }
+
+        .homepage h2 {
+            grid-row: 2/3;
+            grid-column: 8/13;
+            margin: 0;
+            text-align: left;
+            align-self: center;
+        }
+
+        .homepage img {
+            grid-column: 1/6;
+            grid-row: 1/5;
+        }
+
+        .homepage p {
+            grid-column: 8/13;
+            grid-row: 3/4;
+            text-align: left;
+            align-self: center;
+        }
+
+        .homepage a {
+            grid-column: 9/12;
+            grid-row: 4/5;
+            align-self: end;
+            justify-self: center;
+        }
+
+        .homepage a>img {
+            width: 40px;
+        }
+
+        /* GET TO KNOW ME */
+
+        .gettoknowme {
+            grid-template-rows: repeat(8,auto);
+        }
+
+        .gettoknowme h2#title1 {
+            grid-column: 3/6;
+            grid-row: 1/2;
+            background-image: url("../img/gettoknowme.png");
+            background-repeat: no-repeat;
+            width: 122px;
+            height: 184px;
+            text-indent: -3333px;
+            justify-self: center;
+            margin-top: 0;
+        }
+
+        .gettoknowme img#i1 {
+            grid-column: 7/9;
+            grid-row: 1/2;
+            padding: 0 0 40px 0;
+        }
+
+        .gettoknowme img#i2 {
+            grid-column: 9/12;
+            grid-row: 1/2;
+            padding: 0 0 50px 0;
+        }
+
+        .gettoknowme p#p1 {
+            grid-row: 2/3;
+            grid-column: 3/11;
+            text-align: left;
+        }
+
+        .gettoknowme button#b1 {
+            grid-row: 3/4;
+            grid-column: 6/11;
+            margin-top: 40px;
+            justify-self: center;
+        }
+
+        .gettoknowme img#i3 {
+            grid-column: 3/11;
+            grid-row: 5/6;
+            align-self: center;
+            margin-top: 100px;
+        }
+
+        .gettoknowme h2#title2 {
+            grid-row: 6/7;
+            grid-column: 4/10;
+            margin: 50px 0 0.6em 0;
+            text-align: center;
+        }
+
+        .gettoknowme p#p2 {
+            grid-row: 7/8;
+            grid-column: 4/10;
+        }
+
+        .gettoknowme button#b2 {
+            grid-row: 8/9;
+            grid-column: 5/9;
+            margin-top: 30px;
+        }
+
+        /* LET'S WORK TOGETHER */
+
+        .letswork {
+            grid-template-rows: repeat(3,auto);
+            margin-top: 150px;
+        }
+
+        .letswork h2 {
+            grid-column: 4/10;
+            margin: 0.6em 0 0.6em 0;
+            grid-row: 1/2;
+            text-align: center;
+        }
+
+        .letswork img {
+            grid-column: 3/11;
+            grid-row: 1/4;
+        }
+
+        .letswork p {
+            grid-column: 4/10;
+            grid-row: 2/3;
+        }
+
+        .letswork form {
+            margin-top: 40px;
+            grid-row: 3/4;
+            grid-column: 4/10;
+        }
+
+        input, textarea, select {
+            font-size: 1.4em;
+        }
+
+        footer {
+            margin-top: 100px;
+        }
+
+        footer a {
+            font-size: 1.4em;
+            font-weight: normal;
+        }
+
+        /* STAY IN TOUCH */
+
+        .stayintouch #title1 {
+            margin-bottom: 40px;
+        }
+
+        .stayintouch p {
+            grid-column: 1/7;
+            margin-bottom: 40px;
+        }
+
+        .stayintouch form {
+            grid-column: 2/6;
+        }
+
+        .stayintouch #i1 {
+            grid-column: 8/13;
+            align-self: center;
+        }
+
+        /* ABOUT */
+
+        h3#title3, h3#title4 {
+            padding-bottom: 20px;
+        }
+
+        .moreaboutme img#i3 {
+            width: 40px;
+        }
+
+        .mystory img#i6 {
+            width: 70px;
+            padding: 20px 0 20px 0;
+            justify-self: center;
+        }
+
+        p#p4 {
+            padding-bottom: 20px;
+        }
+
+        .mystory button {
+            padding: 9px 0 10px 0;
+        }
+
+    }
+
+    @media (min-width: 1201px) and (max-width: 1500px) {
+
+        .grid {
+            margin-left: 5em;
+            margin-right: 5em;
+            grid-template-columns: repeat(12, 1fr);
+            grid-gap: 0.5em;
+        }
+
+        h1 {
+            font-size: 2.5em;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 2em;
+        }
+
+        p {
+            font-size: 1.5em;
+        }
+
+        button, input#send {
+            font-size: 1.2em;
+            padding: 14px 19px 11px 19px;
+        }
+
+        /* HOMEPAGE */
+
+        .homepage {
+            grid-template-rows: repeat(4, auto);
+            margin-bottom: 150px;
+        }
+
+        .homepage h1 {
+            grid-column: 7/12;
+            grid-row: 1/2;
+            margin: 0;
+        }
+
+        .homepage h2 {
+            grid-row: 2/3;
+            grid-column: 8/12;
+            margin: 0;
+            text-align: left;
+            align-self: center;
+        }
+
+        .homepage img {
+            grid-column: 2/6;
+            grid-row: 1/5;
+        }
+
+        .homepage p {
+            grid-column: 8/12;
+            grid-row: 3/4;
+            text-align: left;
+            align-self: center;
+        }
+
+        .homepage a {
+            grid-column: 9/11;
+            grid-row: 4/5;
+            align-self: end;
+            justify-self: center;
+        }
+
+        .homepage a>img {
+            width: 40px;
+        }
+
+        /* GET TO KNOW ME */
+
+        .gettoknowme {
+            grid-template-rows: repeat(8,auto);
+        }
+
+        .gettoknowme h2#title1 {
+            grid-column: 3/6;
+            grid-row: 1/2;
+            background-image: url("../img/gettoknowme.png");
+            background-repeat: no-repeat;
+            width: 122px;
+            height: 184px;
+            text-indent: -3333px;
+            justify-self: center;
+            align-self: center;
+            margin-top: 0;
+        }
+
+        .gettoknowme img#i1 {
+            grid-column: 6/8;
+            grid-row: 1/2;
+            padding: 0 0 40px 0;
+        }
+
+        .gettoknowme img#i2 {
+            grid-column: 8/11;
+            grid-row: 1/2;
+            padding: 0 0 50px 0;
+        }
+
+        .gettoknowme p#p1 {
+            grid-row: 2/3;
+            grid-column: 4/11;
+            text-align: left;
+        }
+
+        .gettoknowme button#b1 {
+            grid-row: 3/4;
+            grid-column: 6/9;
+            margin-top: 40px;
+            justify-self: center;
+            margin-bottom: 120px;
+        }
+
+        .gettoknowme img#i3 {
+            grid-column: 1/6;
+            grid-row: 4/9;
+            align-self: center;
+            margin-top: 0;
+        }
+
+        .gettoknowme h2#title2 {
+            grid-row: 4/5;
+            grid-column: 6/13;
+            margin: 0.6em 0 0.6em 0;
+            text-align: center;
+        }
+
+        .gettoknowme p#p2 {
+            grid-row: 6/7;
+            grid-column: 7/13;
+        }
+
+        .gettoknowme button#b2 {
+            grid-row: 7/8;
+            grid-column: 9/11;
+            margin-top: 30px;
+        }
+
+        /* LET'S WORK TOGETHER */
+
+        .letswork {
+            grid-template-rows: repeat(3,auto);
+            margin-top: 150px;
+        }
+
+        .letswork h2 {
+            grid-column: 4/10;
+            margin: 0.6em 0 0.6em 0;
+            grid-row: 1/2;
+            text-align: center;
+        }
+
+        .letswork img {
+            grid-column: 3/11;
+            grid-row: 1/4;
+        }
+
+        .letswork p {
+            grid-column: 4/10;
+            grid-row: 2/3;
+        }
+
+        .letswork form {
+            margin-top: 40px;
+            grid-row: 3/4;
+            grid-column: 4/10;
+        }
+
+        input, textarea, select {
+            font-size: 1.4em;
+        }
+
+        footer {
+            margin-top: 100px;
+        }
+
+        footer a {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        /* STAY IN TOUCH */
+
+        .stayintouch #title1 {
+            margin-bottom: 40px;
+        }
+
+        .stayintouch p {
+            grid-column: 1/7;
+            margin-bottom: 40px;
+        }
+
+        .stayintouch form {
+            grid-column: 2/6;
+        }
+
+        .stayintouch #i1 {
+            grid-column: 8/13;
+            align-self: center;
+        }
+
+        /* ABOUT */
+
+        h3#title3, h3#title4 {
+            padding-bottom: 20px;
+        }
+
+        .moreaboutme img#i3 {
+            width: 40px;
+        }
+
+        .mystory img#i6 {
+            width: 70px;
+            padding: 20px 0 20px 0;
+            justify-self: center;
+        }
+
+        p#p4 {
+            padding-bottom: 20px;
+        }
+
+        .mystory button {
+            padding: 9px 0 10px 0;
+        }
+    }
+
+    @media (min-width: 1501px) and (max-width: 1800px) {
+
+        .grid {
+            margin-left: 7em;
+            margin-right: 7em;
+            grid-template-columns: repeat(12, 1fr);
+            grid-gap: 0.5em;
+        }
+
+        h1 {
+            font-size: 3em;
+            text-align: center;
+        }
+
+        h2 {
+            font-size: 2.3em;
+        }
+
+        p {
+            font-size: 1.7em;
+        }
+
+        button, input#send {
+            font-size: 1.3em;
+            padding: 14px 19px 11px 19px;
+        }
+
+        /* HOMEPAGE */
+
+        .homepage {
+            grid-template-rows: repeat(4, auto);
+            margin-bottom: 150px;
+        }
+
+        .homepage h1 {
+            grid-column: 7/12;
+            grid-row: 1/2;
+            margin: 0;
+        }
+
+        .homepage h2 {
+            grid-row: 2/3;
+            grid-column: 8/12;
+            margin: 0;
+            text-align: left;
+            align-self: center;
+        }
+
+        .homepage img {
+            grid-column: 2/6;
+            grid-row: 1/5;
+        }
+
+        .homepage p {
+            grid-column: 8/12;
+            grid-row: 3/4;
+            text-align: left;
+            align-self: center;
+        }
+
+        .homepage a {
+            grid-column: 9/11;
+            grid-row: 4/5;
+            align-self: end;
+            justify-self: center;
+        }
+
+        .homepage a>img {
+            width: 40px;
+        }
+
+        /* GET TO KNOW ME */
+
+        .gettoknowme {
+            grid-template-rows: repeat(8,auto);
+        }
+
+        .gettoknowme h2#title1 {
+            grid-column: 3/6;
+            grid-row: 1/2;
+            background-image: url("../img/gettoknowme.png");
+            background-repeat: no-repeat;
+            width: 122px;
+            height: 184px;
+            text-indent: -3333px;
+            justify-self: center;
+            align-self: center;
+            margin-top: 0;
+        }
+
+        .gettoknowme img#i1 {
+            grid-column: 6/8;
+            grid-row: 1/2;
+            padding: 0 0 40px 0;
+        }
+
+        .gettoknowme img#i2 {
+            grid-column: 8/11;
+            grid-row: 1/2;
+            padding: 0 0 50px 0;
+        }
+
+        .gettoknowme p#p1 {
+            grid-row: 2/3;
+            grid-column: 4/11;
+            text-align: left;
+        }
+
+        .gettoknowme button#b1 {
+            grid-row: 3/4;
+            grid-column: 6/9;
+            margin-top: 40px;
+            justify-self: center;
+            margin-bottom: 120px;
+        }
+
+        .gettoknowme img#i3 {
+            grid-column: 1/6;
+            grid-row: 4/9;
+            align-self: center;
+            margin-top: 0;
+        }
+
+        .gettoknowme h2#title2 {
+            grid-row: 4/5;
+            grid-column: 6/13;
+            margin: 0.6em 0 0.6em 0;
+            text-align: center;
+        }
+
+        .gettoknowme p#p2 {
+            grid-row: 6/7;
+            grid-column: 7/13;
+        }
+
+        .gettoknowme button#b2 {
+            grid-row: 7/8;
+            grid-column: 9/11;
+            margin-top: 30px;
+        }
+
+        /* LET'S WORK TOGETHER */
+
+        .letswork {
+            grid-template-rows: repeat(3,auto);
+            margin-top: 150px;
+        }
+
+        .letswork h2 {
+            grid-column: 5/9;
+            margin: 0.6em 0 0.6em 0;
+            grid-row: 1/2;
+            text-align: center;
+        }
+
+        .letswork img {
+            grid-column: 3/11;
+            grid-row: 1/4;
+            justify-self: center;
+        }
+
+        .letswork p {
+            grid-column: 5/9;
+            grid-row: 2/3;
+        }
+
+        .letswork form {
+            margin-top: 40px;
+            grid-row: 3/4;
+            grid-column: 5/9;
+        }
+
+        input, textarea, select {
+            font-size: 1.5em;
+        }
+
+        footer {
+            margin-top: 100px;
+        }
+
+        footer a {
+            font-size: 1.5em;
+            font-weight: bold;
+        }
+
+        /* STAY IN TOUCH */
+
+        .stayintouch #title1 {
+            margin-bottom: 40px;
+        }
+
+        .stayintouch p {
+            grid-column: 1/7;
+            margin-bottom: 40px;
+        }
+
+        .stayintouch form {
+            grid-column: 2/6;
+        }
+
+        .stayintouch #i1 {
+            grid-column: 8/13;
+            align-self: center;
+        }
+    }
