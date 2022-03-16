@@ -861,13 +861,11 @@
 
         li.precedente {
             cursor: pointer;
-            mix-blend-mode: difference;
             padding-right: 10px;
         }
 
         li.suivante {
             cursor: pointer;
-            mix-blend-mode: difference;
             padding-left: 10px;
         }
 

@@ -10,13 +10,11 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87fcd4ff-c637-428b-9d27-c19021d326fd" name="Default Changelist" comment="final commit">
+    <list default="true" id="87fcd4ff-c637-428b-9d27-c19021d326fd" name="Default Changelist" comment="menu responsive">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/atelier.html" beforeDir="false" afterPath="$PROJECT_DIR$/atelier.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/responsive.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/responsive.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/responsiveproject.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/responsiveproject.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/defi24.html" beforeDir="false" afterPath="$PROJECT_DIR$/defi24.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/draw.html" beforeDir="false" afterPath="$PROJECT_DIR$/draw.html" afterDir="false" />
@@ -111,7 +109,7 @@
       <workItem from="1646820183911" duration="144000" />
       <workItem from="1646839318034" duration="236000" />
       <workItem from="1647338289310" duration="6301000" />
-      <workItem from="1647349735650" duration="16768000" />
+      <workItem from="1647349735650" duration="18452000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1644167693233</created>
@@ -134,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647349789545</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="menu responsive">
+      <created>1647375589138</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1647375589138</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -155,7 +160,8 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="initial commit" />
     <MESSAGE value="final commit" />
-    <option name="LAST_COMMIT_MESSAGE" value="final commit" />
+    <MESSAGE value="menu responsive" />
+    <option name="LAST_COMMIT_MESSAGE" value="menu responsive" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="171" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1647348939170">
@@ -174,10 +180,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1359" y="445" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1644165164390" />
-    <state x="988" y="253" key="Vcs.Push.Dialog.v2" timestamp="1647349793741">
+    <state x="988" y="253" key="Vcs.Push.Dialog.v2" timestamp="1647375592713">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="988" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1647349793741" />
+    <state x="988" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1647375592713" />
     <state x="988" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1644167698730" />
     <state x="777" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1647348886188">
       <screen x="0" y="0" width="1920" height="1032" />
