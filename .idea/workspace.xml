@@ -12,17 +12,8 @@
   <component name="ChangeListManager">
     <list default="true" id="87fcd4ff-c637-428b-9d27-c19021d326fd" name="Default Changelist" comment="menu responsive">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/atelier.html" beforeDir="false" afterPath="$PROJECT_DIR$/atelier.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/contact.html" beforeDir="false" afterPath="$PROJECT_DIR$/contact.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/defi24.html" beforeDir="false" afterPath="$PROJECT_DIR$/defi24.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/draw.html" beforeDir="false" afterPath="$PROJECT_DIR$/draw.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/eucacile.html" beforeDir="false" afterPath="$PROJECT_DIR$/eucacile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/index.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lalalab.html" beforeDir="false" afterPath="$PROJECT_DIR$/lalalab.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/verax.html" beforeDir="false" afterPath="$PROJECT_DIR$/verax.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/works.html" beforeDir="false" afterPath="$PROJECT_DIR$/works.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,6 +101,8 @@
       <workItem from="1646839318034" duration="236000" />
       <workItem from="1647338289310" duration="6301000" />
       <workItem from="1647349735650" duration="18452000" />
+      <workItem from="1647419666271" duration="1296000" />
+      <workItem from="1647423630281" duration="617000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1644167693233</created>
