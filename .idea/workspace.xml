@@ -10,9 +10,8 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="87fcd4ff-c637-428b-9d27-c19021d326fd" name="Default Changelist" comment="menu responsive">
+    <list default="true" id="87fcd4ff-c637-428b-9d27-c19021d326fd" name="Default Changelist" comment="erreur corrigée">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/css/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/css/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/lalalab.html" beforeDir="false" afterPath="$PROJECT_DIR$/lalalab.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -102,7 +101,8 @@
       <workItem from="1647338289310" duration="6301000" />
       <workItem from="1647349735650" duration="18452000" />
       <workItem from="1647419666271" duration="1296000" />
-      <workItem from="1647423630281" duration="617000" />
+      <workItem from="1647423630281" duration="662000" />
+      <workItem from="1647424897683" duration="242000" />
     </task>
     <task id="LOCAL-00001" summary="initial commit">
       <created>1644167693233</created>
@@ -132,7 +132,14 @@
       <option name="project" value="LOCAL" />
       <updated>1647375589138</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="erreur corrigée">
+      <created>1647424761958</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1647424761958</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -154,7 +161,8 @@
     <MESSAGE value="initial commit" />
     <MESSAGE value="final commit" />
     <MESSAGE value="menu responsive" />
-    <option name="LAST_COMMIT_MESSAGE" value="menu responsive" />
+    <MESSAGE value="erreur corrigée" />
+    <option name="LAST_COMMIT_MESSAGE" value="erreur corrigée" />
   </component>
   <component name="WindowStateProjectService">
     <state x="414" y="171" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1647348939170">
@@ -173,10 +181,10 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1359" y="445" key="NewPhpFileDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1644165164390" />
-    <state x="988" y="253" key="Vcs.Push.Dialog.v2" timestamp="1647375592713">
+    <state x="988" y="253" key="Vcs.Push.Dialog.v2" timestamp="1647424764774">
       <screen x="0" y="0" width="1920" height="1032" />
     </state>
-    <state x="988" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1647375592713" />
+    <state x="988" y="253" key="Vcs.Push.Dialog.v2/0.0.1920.1032@0.0.1920.1032" timestamp="1647424764774" />
     <state x="988" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1040@0.0.1920.1040" timestamp="1644167698730" />
     <state x="777" y="430" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1647348886188">
       <screen x="0" y="0" width="1920" height="1032" />
